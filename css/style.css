@@ -5381,9 +5381,7 @@ circle {
 	opacity: 1;
 	
 }
-.navbar ul{
-	margin-bottom: -40%;
-}
+
 .navbar-nav{
 	list-style: none;
 	margin-right: 20%;
@@ -5394,14 +5392,51 @@ circle {
 	margin-left: 2em;
 }
 .navbar-nav .nav-item{
-	margin-right: 4em;
+	margin-right: 2.5em !important;
 	margin-top: 1.8em;
 }
 
 .navbar .navbar-nav .nav-item a{
 	transition: all 0.2s ease-out;
+	color: #4dd0e1;
 }
 .navbar .navbar-nav .nav-item a:hover{
 	text-decoration: none;
 	color: #fff;
+}
+
+div.section.panel-7.footer-panel.dark.fp-section.fp-table.active{
+	height: 0 !important;
+}
+
+.content{
+	margin: 1em 0;
+}
+.logo-footer{
+	max-width: 90px;
+}
+
+.facebook:hover{
+	background-color: #3b5998 !important;
+	color: #eee !important;
+}
+.twitter:hover{
+	background-color: #00aced !important;
+	color: #eee !important;
+	
+}
+.github:hover{
+	background-color: #333 !important;
+	color: #eee !important;
+}
+.google:hover{
+	background-color: #d34836 !important;
+	color: #eee !important;
+}
+.pinterest:hover{
+	background-color: #C92228 !important;
+	color: #eee !important;
+}
+.border-radius-50{
+	border-radius: 50% !important;
 }
