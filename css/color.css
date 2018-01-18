@@ -81,8 +81,11 @@ blockquote {
 5.0 Services panel 1
 *********************************************/
 /* Service icon background color hover */
+.services-panel1 .service-box{
+	background-color: rgba(77, 208, 225, .4);
+}
 .services-panel1 .service-box:hover {
-	background-color: #00838f;
+	background-color: rgba(77, 208, 225, .4);
 }
 
 /********************************************
@@ -91,6 +94,7 @@ blockquote {
 /* Service icon background color hover */
 .services-panel2 .service-box .icon-hover {
 	background-color: #00acc1;
+	
 }
 
 /* Service title hover */
