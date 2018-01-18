@@ -4966,9 +4966,12 @@ circle {
 	left: 60px;
 	opacity: 0;
 }
+.flex-caption > h1.slider-title {
+	font-size: 2em;
+}
 @media (max-width: 680px) {
-	.slider-title{
-		font-size: 16px;
+	.flex-caption  h1.slider-title {
+		font-size: 1em;
 	}
 	
 }
@@ -5422,10 +5425,13 @@ circle {
 .navbar .navbar-nav .nav-item a{
 	transition: all 0.2s ease-out;
 	color: #4dd0e1;
+	font-weight: bold;
+	text-shadow: 2px 1px 2px #000;
 }
 .navbar .navbar-nav .nav-item a:hover{
 	text-decoration: none;
 	color: #fff;
+	text-shadow: 0 0 0 #000;
 }
 
 div.section.panel-7.footer-panel.dark.fp-section.fp-table.active{
@@ -5471,7 +5477,7 @@ div.section.panel-7.footer-panel.dark.fp-section.fp-table.active{
 }
 #particles-js{
 	position: absolute;
-    z-index: 1;
+	z-index: 1000;
     top: 0;
     left: auto;
 	width: 100%;
@@ -5479,4 +5485,7 @@ div.section.panel-7.footer-panel.dark.fp-section.fp-table.active{
 }
 .zindex-1000{
 	z-index: 1000;
+}
+.slider-title{
+	color: #ccc;
 }
