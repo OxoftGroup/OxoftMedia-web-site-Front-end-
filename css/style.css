@@ -5469,3 +5469,14 @@ div.section.panel-7.footer-panel.dark.fp-section.fp-table.active{
     top: 90%;
     left: 0%;
 }
+#particles-js{
+	position: absolute;
+    z-index: 1;
+    top: 0;
+    left: auto;
+	width: 100%;
+	height: 100%;
+}
+.zindex-1000{
+	z-index: 1000;
+}

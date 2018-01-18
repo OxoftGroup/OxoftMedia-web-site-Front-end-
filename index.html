@@ -99,8 +99,7 @@
             <!--Navigation Menu Start-->
             <nav>
                 <ul class="nav-menu">
-                    <li data-menuanchor="
-                    " class="active"><a href="index.html#panelBlock1">Home</a></li>
+                    <li data-menuanchor="" class="active"><a href="index.html#panelBlock1">Home</a></li>
                     <li data-menuanchor="panelBlock2"><a href="index.html#panelBlock2">About Us</a></li>
                     <li data-menuanchor="panelBlock3"><a href="index.html#panelBlock3">Portfolio</a></li>
                     <li data-menuanchor="panelBlock4"><a href="index.html#panelBlock4">Special Offers</a></li>
@@ -146,12 +145,8 @@
     	<!-- Top Social Media -->
 
 
-    	<div class="mouse-scroll">
-
-        </div>
-
-        <div class="flexslider slider-panel-wrapper" style="background:url('img/bg.jpg'); background-size: cover; background-attachment:fixed;">
-            <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-large">
+        <div class="flexslider slider-panel-wrapper" style="background:url('img/bg.jpg'); background-size: cover; background-attachment:fixed;" >
+            <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-large zindex-1000">
                     <a class="navbar-brand" href="#panelBlock1">
                        <img src="img/Logo-blanco-small.png" alt="logo">
                     </a>
@@ -178,7 +173,7 @@
                             </ul>
                     </div>
                   </nav>
-        	<ul class="slides">
+        	<ul class="slides zindex-1000">
                 <!--Slide 1 Start-->
             	<li>
                 	<div class="flex-caption">
@@ -198,7 +193,6 @@
                 	<div class="overlay" data-bg-color="#212121" data-opacity="0.4"></div>
                 </li>
                 <!--End-->
-
                 <!--Slide 3 Start-->
                 <li>
                 	<div class="flex-caption">
@@ -921,11 +915,8 @@
 
     <!--Panel-8 Footer Panel Start-->
     <div class="panel-8 footer-panel dark container-fluid" data-bg-color="#111111" data-image-src="images/upload/footer-bg-image.jpg">
-
+        <div id="particles-js"></div>
         <div class="text-center content">
-
-
-
                 <!--Footer Social Media-->
                 <div class="social-media mt">
                         <ul>
@@ -936,7 +927,6 @@
                             <li><a href="https://github.com/OxoftMedia" class="github border-radius-50"><i class="fa fa-github fa-lg"></i></a></li>
                         </ul>
                     </div>
-
                 <!--Copyright-->
                 <div class="copyright">
                     Copyright © 2018. All Rights Reserved. <br/>
@@ -945,8 +935,7 @@
 
 
         </div>
-
-        <!-- <div class="overlay" data-bg-color="#111111" data-opacity="0.8"></div> -->
+      <!-- <div class="overlay" data-bg-color="#111111" data-opacity="0.8" id="particles-js"></div> -->
     </div>
     <!--Panel-8 Footer Panel End-->
 
@@ -954,6 +943,8 @@
 <!--Fullpage Wrapper End-->
 
 <!--jQuery files-->
+<script src="js/particles.min.js"></script>
+<script src="js/particles-app.js"></script>
 <script type="text/javascript" src="js/vendor/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="js/vendor/jquery.easings.min.js"></script>
 <script type="text/javascript" src="js/vendor/jquery.slimscroll.min.js"></script>
