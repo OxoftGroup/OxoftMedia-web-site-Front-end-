@@ -1984,29 +1984,32 @@ video::-webkit-media-controls {
 	-ms-transition: background-color 0.2s ease-in-out;
 	transition: background-color 0.2s ease-in-out;
 }
-.services-caption{
-	background-color: #fff;
+.service-box .services-caption{
+	color: #eee;
 }
-/* .services-caption{
-	background-color: #4dd0e1;
+.services-caption{
+	display: flex !important;
+  	justify-content: center !important;
+  	align-items: center !important;
+	background-color: #333;
 	color:#fff;
 	height: 100%;
 	width: 100%;
 	left: 0;
 	position: absolute;
 	top: 100%;			
-	transition: all .3s linear !important;	
+	transition: all .4s linear !important;	
 }
 .service-box{
 	height: 100%;
-	transition: all .3s linear !important;
+	transition: all .4s linear !important;
 	overflow: hidden;	
 }	
 
 .service-box:hover .services-caption{
-	top: 63%;
+	top: 0%;
 	display: block;
-} */
+}
 
 .services-panel1 .service-box a {
 	color: #878787;
