@@ -126,7 +126,7 @@ body {
 /********************************************
 2.0 Page loader
 *********************************************/
-.loader-wrapper {
+/* .loader-wrapper {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -176,7 +176,7 @@ body {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
 	}
-}
+} */
 
 
 /********************************************
@@ -654,9 +654,9 @@ blockquote.blockquote2 > span ~ span:before {
 /********************************************
 4.0 Sidebar navigation
 *********************************************/
-#main-menu {
+/* #main-menu {
 	display: none;
-}
+} */
 
 #main-menu .nav-open {
 	position: fixed;
@@ -5446,6 +5446,12 @@ circle {
 .navbar-nav .nav-item:hover a:before{
 	width: 100% !important;
 }
+.navbar-nav .active a:before{
+	width: 100% !important;
+}
+.navbar-nav .nav-item:hover a{
+	color: #fff;
+}
 .navbar{
 	background: rgba(50, 50, 50, 0.6);
 } 
@@ -5475,7 +5481,7 @@ div.section.panel-7.footer-panel.dark.fp-section.fp-table.active{
 	
 }
 .github:hover{
-	background-color: #333 !important;
+	background-color: #222 !important;
 	color: #eee !important;
 }
 .google:hover{
@@ -5508,4 +5514,12 @@ div.section.panel-7.footer-panel.dark.fp-section.fp-table.active{
 }
 .slider-title{
 	color: #ccc;
+}
+.mega-entry-innerwrap{
+	background-position: 0 0 !important;
+	/* background-size: contain  !important; */
+}
+
+.margin-negative{
+	margin-bottom: -2em !important;
 }

@@ -6,7 +6,7 @@
 <title>Portfolio | Wizard Portfolio HTML Template</title>
 
 <!--Bootstrap Element and Grid System-->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!--Main Elements CSS-->
 <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -48,98 +48,95 @@
 <body>
 
 <!--Page Loader-->
-<div class="loader-wrapper">
+<!-- <div class="loader-wrapper">
 	<div class="loader">Loading...</div>
-</div>
+</div> -->
 <!--End-->
 
 <!--Main Menu Wrapper Start-->
-<div id="main-menu" class="left">
-
-	<!--Menu Burger-->
-    <div class="nav-open">
-        <a href="#" class="nav-btn" data-action="open">
-        	<div class="burger-wrap">
-                <div class="menu-burger">
-                    <div class="menu1"></div>
-                    <div class="menu2"></div>
-                    <div class="menu3"></div>
-                </div>
-            </div>
-        </a>
-    </div>
-    
-    <!--Sidebar Navigation Start-->
-	<div class="sidebar-nav">
-    	<div class="nav-inner-wrap">
-    	
-            <!--Menu Close-->
-            <div class="nav-close">
-                <a href="#" class="nav-btn" data-action="close">
-                    <div class="menu-close">
+<div id="main-menu" class="right">
+        <!--Menu Burger-->
+        <div class="nav-open">
+            <a href="#" class="nav-btn" data-action="open">
+                <div class="burger-wrap">
+                    <div class="menu-burger">
                         <div class="menu1"></div>
                         <div class="menu2"></div>
+                        <div class="menu3"></div>
                     </div>
-                </a>
+                </div>
+            </a>
+        </div>    
+        <!--Sidebar Navigation Start-->
+        <div class="sidebar-nav">
+            <div class="nav-inner-wrap">    
+                <!--Menu Close-->
+                <div class="nav-close">
+                    <a href="#" class="nav-btn" data-action="close">
+                        <div class="menu-close">
+                            <div class="menu1"></div>
+                            <div class="menu2"></div>
+                        </div>
+                    </a>
+                </div>    
+                <!--Logo Start-->
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/Logo-blanco.png" alt="logo" />
+                    </a>
+                </div>
+                <!--Logo End-->    
+                <!--Navigation Menu Start-->
+                <nav>
+                    <ul class="nav-menu">
+                        <li data-menuanchor="panelBlock1" class="active"><a href="index.html#panelBlock1">Home</a></li>
+                        <li data-menuanchor="panelBlock2"><a href="index.html#panelBlock2">About Us</a></li>
+                        <li data-menuanchor="panelBlock4"><a href="index.html#panelBlock5">Services</a></li>
+                        <li data-menuanchor="panelBlock5"><a href="index.html#panelBlock6">Team</a></li>
+                        <li data-menuanchor="panelBlock6"><a href="index.html#panelBlock7">Contact Us</a></li>
+                        <li><a href="#">Pages</a>
+                            <ul>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="portfolio.html">Portfolio</a>
+                                    <ul>
+                                        <li><a href="portfolio-single01.html">Portfolio Single</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="blog.html">Blog</a>
+                                    <ul>
+                                        <li><a href="blog-single01.html">Blog Single</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="columns.html">Columns</a></li>
+                                <li><a href="elements.html">Elements</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!--Navigation Menu End-->
+    
             </div>
-            
-            <!--Logo Start-->
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/logo.png" alt="logo" />
-                </a>
-            </div>
-            <!--Logo End-->
-            
-            <!--Navigation Menu Start-->
-            <nav>
-                <ul class="nav-menu">
-                    <li data-menuanchor="panelBlock1"><a href="index.html#panelBlock1">Home</a></li>
-                    <li data-menuanchor="panelBlock2"><a href="index.html#panelBlock2">About Us</a></li>
-                    <li data-menuanchor="panelBlock3"><a href="index.html#panelBlock3">Portfolio</a></li>
-                    <li data-menuanchor="panelBlock4"><a href="index.html#panelBlock4">Special Offers</a></li>
-                    <li data-menuanchor="panelBlock5"><a href="index.html#panelBlock5">Extra Services</a></li>
-                    <li data-menuanchor="panelBlock6"><a href="index.html#panelBlock6">Blog</a></li>
-                    <li data-menuanchor="panelBlock7"><a href="index.html#panelBlock7">Contact Us</a></li>
-                    <li class="active"><a href="#">Pages</a>
-                        <ul>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="portfolio.html">Portfolio</a>
-                                <ul>
-                                    <li><a href="portfolio-single01.html">Portfolio Single</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="blog.html">Blog</a>
-                                <ul>
-                                    <li><a href="blog-single01.html">Blog Single</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="columns.html">Columns</a></li>
-                            <li><a href="elements.html">Elements</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-            <!--Navigation Menu End-->
-		
-		</div>
+        </div>
+        <!--Sidebar Navigation End-->    
     </div>
     <!--Sidebar Navigation End-->
-    
+
 </div>
 <!--Main Menu Wrapper End-->
 
 <div id="fullpage" class="fullpageDisable"></div>
 
+
 <!--Container Wrapper Start-->
 <div class="container-wrapper">
-	
+
     <!--Single Page Header Start-->
-    <div class="page-header" data-bg-color="#212121" data-image-src="images/upload/portfolio-page-bg-image.jpg">
+    <!-- <div class="page-header" data-bg-color="#212121" data-image-src="images/upload/portfolio-page-bg-image.jpg" style="margin:0 !important;">
     	<div class="fit-screen-wrap">
             <div class="container">
                 <div class="page-header-wrap animate-fadeIn">
-                    <h2 class="featured-area-title">Our Work</h2>
+
+                    <h2 class="featured-area-title">Portfolio</h2>
                     <div data-height="30"></div>
                     <div class="featured-area-subtitle">
                         Vestibulum ante ipsum primis in faucibus<br>dignissim viverra tellus.
@@ -148,23 +145,44 @@
             </div>
         </div>
         <div class="overlay" data-bg-color="#212121" data-opacity="0.5"></div>
-    </div>
+    </div> -->
     <!--Single Page Header End-->
-    
+
     <!--Single Page Content Body Start-->
-    <div class="portfolio-page" data-bg-color="#fff">
-    
+    <div class="portfolio-page section" data-bg-color="#bbb">
+            <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-large zindex-1000">
+                    <a class="navbar-brand" href="#panelBlock1">
+                       <img src="img/Logo-blanco-small.png" alt="logo">
+                    </a>
+                    <div class="navbar-right" style="margin-right: 2em; margin-bottom:;">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="index.html#panelBlock4">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#panelBlock5">Team</a>
+                                </li>                    
+                                <li class="nav-item">
+                                        <a class="nav-link" href="index.html#panelBlock6">Contact Us</a>
+                                </li>
+                            </ul>
+                    </div>
+                  </nav>
+
     	<!--Portfolio Title and Filter Start-->
         <div class="container">
             <div class="row">
             	<div class="inner-wrapper">
-                
+                    <br>
                 	<!--Block Title-->
     				<div class="block-title">
     					<h1>Portfolio</h1>
     				</div>
     				<!--End-->
-                        
+
     				<!--Category Filter Start-->
     				<div class="portfolio-filter">
                     	<ul>
@@ -176,454 +194,454 @@
                         </ul>
     				</div>
     				<!--Category Filter End-->
-                
+
                 </div>
             </div>
         </div>
         <!--Portfolio Title and Filter End-->
-        
+
         <!--Portfolio Item Start-->
         <div class="portfolio-item">
     		<div class="megafolio-container norounded noborder">
-            
+
             	<!--Portfolio Item 1 Start-->
     			<div class="mega-entry cat-all cat-four cat-three" id="entry-1" data-src="images/upload/portfolio-thumbnail01.jpg" data-width="800" data-height="527">
-                
+
                 	<!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Quisque vitae sapien
                             <div class="mega-hoversubtitle">Morbi pretium</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single01.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio01.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                
+
                 </div>
                 <!--Portfolio Item 1 End-->
-                
+
                 <!--Portfolio Item 2 Start-->
     			<div class="mega-entry cat-all cat-one cat-four" id="entry-2" data-src="images/upload/portfolio-thumbnail02.jpg" data-width="800" data-height="527">
-                	
+
                     <!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Cras eu vehicula
                             <div class="mega-hoversubtitle">Morbi ut urna</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single02.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio02.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                    
+
                 </div>
                 <!--Portfolio Item 2 End-->
-                
+
                 <!--Portfolio Item 3 Start-->
     			<div class="mega-entry cat-all cat-two cat-one" id="entry-3" data-src="images/upload/portfolio-thumbnail03.jpg" data-width="800" data-height="527">
-                	
+
                     <!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Vivamus ut dolor
                             <div class="mega-hoversubtitle">Duis dui porta</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single03.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio03.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
 
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                    
+
                 </div>
                 <!--Portfolio Item 3 End-->
-                
+
                 <!--Portfolio Item 4 Start-->
     			<div class="mega-entry cat-all cat-three cat-two" id="entry-4" data-src="images/upload/portfolio-thumbnail04.jpg" data-width="800" data-height="527">
-                
+
                 	<!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Maecena mauris
                             <div class="mega-hoversubtitle">Aliquam dignissim</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single04.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio04.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                
+
                 </div>
                 <!--Portfolio Item 4 End-->
-                
+
                 <!--Portfolio Item 5 Start-->
     			<div class="mega-entry cat-all cat-one cat-three" id="entry-5" data-src="images/upload/portfolio-thumbnail05.jpg" data-width="800" data-height="527">
-                
+
                 	<!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Suspendis mattis
                             <div class="mega-hoversubtitle">Aenean sollicitudin</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single05.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio05.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                
+
                 </div>
                 <!--Portfolio Item 5 End-->
-                
+
                 <!--Portfolio Item 6 Start-->
     			<div class="mega-entry cat-all cat-three cat-four" id="entry-6" data-src="images/upload/portfolio-thumbnail06.jpg" data-width="800" data-height="527">
-                
+
                 	<!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Duis imperdiet est
                             <div class="mega-hoversubtitle">Nam cursus turpis</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single06.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio06.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                
+
                 </div>
                 <!--Portfolio Item 6 End-->
-                
+
                 <!--Portfolio Item 7 Start-->
     			<div class="mega-entry cat-all cat-two cat-one" id="entry-7" data-src="images/upload/portfolio-thumbnail07.jpg" data-width="800" data-height="527">
-                
+
                 	<!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Nullam sit amet
                             <div class="mega-hoversubtitle">Nam dignissim</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single07.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio07.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                
+
                 </div>
                 <!--Portfolio Item 7 End-->
-                
+
                 <!--Portfolio Item 8 Start-->
                 <div class="mega-entry cat-all cat-four cat-two" id="entry-8" data-src="images/upload/portfolio-thumbnail08.jpg" data-width="800" data-height="527">
-                
+
                 	<!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Ut mauris magna
                             <div class="mega-hoversubtitle">Sed ut consequat</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single08.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio08.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                
+
                 </div>
                 <!--Portfolio Item 8 End-->
-                
+
                 <!--Portfolio Item 9 Start-->
     			<div class="mega-entry cat-all cat-four cat-three" id="entry-9" data-src="images/upload/portfolio-thumbnail09.jpg" data-width="800" data-height="527">
-                
+
                 	<!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Quisque vitae sapien
                             <div class="mega-hoversubtitle">Morbi pretium</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single09.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio09.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                
+
                 </div>
                 <!--Portfolio Item 9 End-->
-                
+
                 <!--Portfolio Item 10 Start-->
     			<div class="mega-entry cat-all cat-one cat-four" id="entry-10" data-src="images/upload/portfolio-thumbnail10.jpg" data-width="800" data-height="527">
-                	
+
                     <!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Cras eu vehicula
                             <div class="mega-hoversubtitle">Morbi ut urna</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single10.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio10.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                    
+
                 </div>
                 <!--Portfolio Item 10 End-->
-                
+
                 <!--Portfolio Item 11 Start-->
     			<div class="mega-entry cat-all cat-two cat-one" id="entry-11" data-src="images/upload/portfolio-thumbnail11.jpg" data-width="800" data-height="527">
-                	
+
                     <!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Vivamus orci diam
                             <div class="mega-hoversubtitle">Duis dui porta</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single11.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio11.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
 
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                    
+
                 </div>
                 <!--Portfolio Item 11 End-->
-                
+
                 <!--Portfolio Item 12 Start-->
     			<div class="mega-entry cat-all cat-three cat-two" id="entry-12" data-src="images/upload/portfolio-thumbnail12.jpg" data-width="800" data-height="527">
-                
+
                 	<!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Maecena mauris
                             <div class="mega-hoversubtitle">Aliquam dignissim</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single12.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio12.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                
+
                 </div>
                 <!--Portfolio Item 12 End-->
-                
+
                 <!--Portfolio Item 13 Start-->
     			<div class="mega-entry cat-all cat-one cat-three" id="entry-13" data-src="images/upload/portfolio-thumbnail13.jpg" data-width="800" data-height="527">
-                
+
                 	<!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Suspendis rutrum
                             <div class="mega-hoversubtitle">Aenean sollicitudin</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single13.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio13.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                
+
                 </div>
                 <!--Portfolio Item 13 End-->
-                
+
                 <!--Portfolio Item 14 Start-->
     			<div class="mega-entry cat-all cat-three cat-four" id="entry-14" data-src="images/upload/portfolio-thumbnail14.jpg" data-width="800" data-height="527">
-                
+
                 	<!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Duis imperdiet est
                             <div class="mega-hoversubtitle">Nam cursus turpis</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single14.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio14.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                
+
                 </div>
                 <!--Portfolio Item 14 End-->
-                
+
                 <!--Portfolio Item 15 Start-->
     			<div class="mega-entry cat-all cat-two cat-one" id="entry-15" data-src="images/upload/portfolio-thumbnail15.jpg" data-width="800" data-height="527">
-                
+
                 	<!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Nullam sit amet
                             <div class="mega-hoversubtitle">Nam dignissim</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single15.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio15.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                
+
                 </div>
                 <!--Portfolio Item 15 End-->
-                
+
                 <!--Portfolio Item 16 Start-->
                 <div class="mega-entry cat-all cat-four cat-two" id="entry-16" data-src="images/upload/portfolio-thumbnail16.jpg" data-width="800" data-height="527">
-                
+
                 	<!--The Container For The Hover Effect-->
                 	<div class="mega-hover">
-                             
+
                         <!--Title and Subtitle-->
                         <div class="mega-hovertitle">Ut mauris magna
                             <div class="mega-hoversubtitle">Sed ut consequat</div>
                         </div>
-                             
+
                         <!--The Link Button-->
                         <a href="portfolio-single16.html">
                         	<div class="mega-hoverlink"><i class="fa fa-link"></i></div>
                         </a>
-                             
+
                         <!--The Lightbox Button-->
                         <a class="fancybox" data-fancybox-group="group" href="images/upload/portfolio16.jpg" title="Lorem ipsum dolor sit amet">
                             <div class="mega-hoverview"><i class="fa fa-search-plus"></i></div>
                         </a>
-                             
+
                 	</div>
                 	<!--End Of The Hover Effect Markup-->
-                
+
                 </div>
                 <!--Portfolio Item 16 End-->
-                
+
     		</div>
     	</div>
         <!--Portfolio Item End-->
-        
+
         <!--Pagination Start-->
         <div class="pagination-wrapper">
             <div class="container">
@@ -639,64 +657,32 @@
             </div>
         </div>
         <!--Pagination End-->
-        
+
     </div>
     <!--Single Page Content Body End-->
-    
-    <!--Single Page Footer Start-->
-    <div class="page-footer dark" data-bg-color="#111111" data-image-src="images/upload/footer-bg-image.jpg">
-    	<div class="fit-screen-wrap">
-            <div class="container">
-                <div class="page-footer-wrap">
-                    
-                    <div data-height="30"></div>
-                    
-                    <!--Footer Logo-->
-                    <div class="footer-logo animate-fadeIn">
-                        <a href="#"><img src="images/upload/footer-logo.png" alt="footer logo" /></a>
-                    </div>
-                    
-                    <div data-height="80"></div>
-                    
-                    <!--Footer Description-->
-                    <div class="footer-description animate-fadeIn">
-                        Sed fringilla <span data-color="#00acc1">egestas morbi</span> condimentum
-                    </div>
-                    <div data-height="35"></div>
-                    <div class="footer-subdescription animate-fadeIn">
-                        Lorem ipsum dolor sit amet consectetur adipiscing<br>mauris magna lacinia purus quis.
-                    </div>
-                    
-                    <div data-height="80"></div>
-                    
-                    <div class="animate-fadeIn">
-                    
-                        <!--Footer Social Media-->
-                        <div class="social-media">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                        
-                        <!--Copyright-->
-                        <div class="copyright">
-                            Copyrights © 2015 <a href="#">Wizard</a>. All Rights Reserved.
-                        </div>
-                    
-                    </div>
-                
-                </div>
-            </div>
-        </div>
-        <div class="overlay" data-bg-color="#111111" data-opacity="0.8"></div>
-    </div>
-    <!--Single Page Footer End-->
 
-</div>
+    <!--Single Page Footer Start-->
+    <div class="footer-panel dark container-fluid" data-bg-color="#111111" data-image-src="images/upload/footer-bg-image.jpg">
+
+        <div class="text-center content">
+                <!--Footer Social Media-->
+                <div class="social-media mt">
+                        <ul>
+                            <li><a href="#" class="facebook border-radius-50"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="twitter border-radius-50"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="google border-radius-50"><i class="fa fa-google"></i></a></li>
+                            <li><a href="#" class="pinterest border-radius-50"><i class="fa fa-pinterest-p"></i></a></li>
+                            <li><a href="https://github.com/OxoftMedia" class="github border-radius-50"><i class="fa fa-github fa-lg"></i></a></li>
+                        </ul>
+                    </div>
+                <!--Copyright-->
+                <div class="copyright">
+                    Copyright © 2018. All Rights Reserved. <br/>
+                    Created by <a href="#panelBlock1"><img src="img/Logo-blanco-small.png" alt="footer logo" class="logo-footer" /></a>
+                </div>
+
+
+        </div>
 <!--Container Wrapper End-->
 
 <!--jQuery files-->

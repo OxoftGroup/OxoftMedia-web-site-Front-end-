@@ -3,10 +3,10 @@ jQuery(document).ready(function() {
 	"use strict";
 	
 	// ===== Pre Loader ===== //
-	$(window).on("load", function(){
-		$('.loader-wrapper').fadeOut(300);
-		$('#main-menu').fadeIn(300);
-	});
+	// $(window).on("load", function(){
+	// 	$('.loader-wrapper').fadeOut(300);
+	// 	$('#main-menu').fadeIn(300);
+	// });
 	
 	
 	// ===== Custom Data Attribute ===== //
